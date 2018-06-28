@@ -1,0 +1,23 @@
+{
+  "name": "metricsme",
+  "version": "0.0.1",
+  "description": "Metrics for micro services via MQTT broker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "metrics",
+    "micro-services"
+  ],
+  "author": "steph.ponteins@gmail.com",
+  "license": "Beerware",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "mqtt": "^2.18.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.0.1",
+    "eslint-config-google": "^0.9.1"
+  }
+}
